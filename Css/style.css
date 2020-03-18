@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+ 
+
+
+/*Navbar */
+
+
+.navbar-brand {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    justify-items: right;
+}
+
+.navbar {
+    background: #555;
+  
+}
+
+.navbar-toggler-icon {
+    background: #fff;
+    border: 2px solid red;
+}
+
+ul li {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding: 0rem 1rem;
+    list-style: none;
+}
+
+ul li a:hover {
+    background: #2f915b;
+    border-radius: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+/* Header  */
+#header {
+    position: relative;
+    background: url(../Image/artificial-intelligence-electronics-future-2599244.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    
+
+
+
+}
+
+#header .primary-overlay {
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; 
+    }
+
+
+#header p {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #fff;
+}
+
+
+
+h2 {
+    font-size: 8rem;
+    color: #fff;
+
+}
+
+h3 {
+    font-size: 4rem;
+    color:#fff;
+    text-align: center;
+   
+   
+}
+
+h4 {
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+   
+}
+
+
+h5 {
+    
+    color: white; 
+    font-size: 2rem;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+img {
+    width: 100%;
+    padding-top: 2rem;
+    
+}
+
+/* Utility Classes */
+
+
+
+.page {
+    text-align: center;
+    line-height: 1.3rem;
+    margin-top: 20rem;
+    
+}
+
+
+.container {
+    margin: auto;
+    padding-top: 3rem;
+}
+
+
+.dark-colour {
+    color: blueviolet;
+
+}
+
+.fab {
+    color: #333;
+    padding: 0rem 2rem;;
+}
+
+.fab:hover {
+    color: chartreuse;
+}
+
+.btn:hover {
+    background: chocolate;
+}
+
+
+
+/* footer */
+#footer {
+    background: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+   
+}
+
+
+  
+
+@media (max-width: 560px) {
+    
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+
+
+    }
+     
+    .navbar-brand {
+        padding-left: 1rem;
+    }
+    .navbar-toggler-icon {
+        background: #fff;
+        border: 2px solid red;
+    }
+
+    ul li {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    
+    }
+    
+    #header {
+      min-height: 400px; 
+      width: 100%;
+
+    }
+    #header p {
+        font-size: 1.5rem;
+        line-height: 1.4rem;
+        color: #fff;
+        padding-right: 1rem;
+       
+    }
+
+    img {
+        width: 100%;
+    
+        
+    }
+    #services h1 {
+        font-size: 2.2rem;
+    }
+
+    #gallery h1 {
+        padding-top: 1rem;
+        font-size: 2.2rem;
+    }
+    
+    #header h2 {
+        font-size: 3rem;
+        padding-bottom: .5rem; 
+     }
+ 
+     h3 {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+  
+    h4 {
+        padding-left: 1.5rem;
+        padding-bottom: 2rem;
+       
+    }
+      .row {
+          padding-right: 2rem;
+      }
+
+   
+    .text-light h5 {
+        padding-left: 3rem;
+    }
+    
+    .page {
+        text-align: center;
+        line-height: 1.3rem;
+        margin-top: 10rem;
+        padding-left: 1rem;
+        
+    }
+    
+
+}
